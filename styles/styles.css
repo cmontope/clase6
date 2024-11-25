@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(51, 255, 0);
+}
+
+
+
+p {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cajas div {
+    background-color: rgb(182, 82, 82);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+
+.cajas {
+    flex-direction: center;
+    flex-wrap: wrap;   
+}
+
+div {
+    display: flex;
+    flex-direction: center;
+}
